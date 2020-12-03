@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, intial-scale=1">
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+			<!-- jQuery library -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+			<!-- Popper JS -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+			<!-- Latest compiled JavaScript -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</head>
+		<body class="bg-dark">
+			<div class="container-fluid pt-3 pb-1 my-3 bg-dark text-white">
+					
+
+						<h2 class="text-center pt-4">
+						 Welcome	
+ 						</h2>
+			<br>
+ 					<ul class="nav nav-tabs font-weight-normal ">
+ 						<li class="nav-item">
+ 							<a href="#home" class="nav-link" data-toggle="tab">Home</a>
+ 						</li>
+ 						<li class="nav-item">
+ 							<a href="#albums" class="nav-link" data-toggle="tab">Albums</a>
+ 						</li>
+ 						<li class="nav-item">
+ 							<a href="#portfolio" class="nav-link" data-toggle="tab">Portfolio</a>
+ 						</li>
+ 						<li class="nav-item">
+ 							<a href="#NoWhere" class="nav-link active disabled" data-toggle="tab">NoWhere</a>
+ 						</li>
+ 					</ul>
+ 					
+ 							<div class="tab-content font-weight-bolder jumbotron jumbotron-fluid text-dark">
+ 								<div class="tab-pane container fade" id="home">Welcome to the home tab, how do you like this
+ 								 Click on any other tab to see the content here change.
+ 								</div>
+ 								<div class="tab-pane container fade" id="albums">Welcome to the Albums tab, No albums, here yet.
+ 								 Click on any other tab to see the content here change.</div>
+ 								<div class="tab-pane container fade" id="portfolio">
+ 									The portfolio is located at <mark>https://www.rohitknows.github.io</mark></div>
+ 								<div class="tab-pane container active" id="NoWhere">Text</div>
+ 							</div>
+
+
+ 			<div class="navbar navbar-expand-xl bg-primary pt-1 pb-1 navbar-light fixed-top">
+ 				<!--- navbar-brand --->
+ 				<a href="#" class="navbar-brand font-weight-bolder text-monospace text-dark" >
+ 								rohitknows.github.io<!--<img src="mylogowhitesmall.png" style="width: 60px;">-->
+       			</a>
+
+ 							<!---Burger icon as toggler for nav-items -->
+ 					<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navtarget">
+ 							<span class="navbar-toggler-icon"></span>
+ 					</button>
+
+ 							<!--Collapsed navbar data-->
+ 					<div class="collapse navbar-collapse" id="navtarget">
+ 						<ul class="navbar-nav font-weight-bold">
+ 							<li class="nav-item">
+								<a href="#alertone" class="nav-link" data-toggle="collapse">Link</a> 							
+ 							</li>
+		 					<li class="nav-item">
+		 						<a href="#" class="nav-link">Link 1</a>
+		 					</li>
+		 					<li class="nav-item">
+		 						<a href="#" class="nav-link ">Link 2</a>
+		 					</li>
+		 					<li class="nav-item">
+		 						<a href="#" class="nav-link">Link 3</a>
+		 					</li>
+ 					</div>
+ 				</ul>
+ 			</div>
+<br>
+ 					<ul class="breadcrumb">
+ 						<li class="breadcrumb-item"><a href="#">Home</a></li>
+ 						<li class="breadcrumb-item"><a href="#">Albums</a></li>
+ 						<li class="breadcrumb-item"><a href="#">Portfolio</a></li>
+ 						<li class="breadcrumb-item active">Nowhere</li>
+ 					</ul>	
+
+ 					<div class="alert alert-warning alert-dismissible fade collapse" id="alertone">
+ 						<a href="" class="close" data-dismiss="alert">&times;</a>
+ 						<strong>Warning! </strong>This is a warning msg. Get on your knees! Hands behind your head!
+ 					</div>
+ 					<div class="alert alert-info alert-dismissible">
+ 						<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+ 						<strong>Info! </strong>This is a info msg! <a href="#" class="alert-link">Read this carefully.</a> 
+ 						Click the &times; button on right to close this.
+
+ 					</div>
+
+				<p class="display-4 bg-dark text-center">Stop it!</p>
+					<h5 class="text-center">Do you know<mark>nani tf is</mark> <abbr title="Uttar Pradesh">UP?</abbr> 
+					<code>I dont know.</code>
+					</h5>
+
+						<p class="text-dark bg-primary blockquote text-center"> Hey ! Use <kbd> Ctrl + P </kbd> 
+							<div class="btn-group btn-group-sm">
+								<button  type="button" class="btn btn-secondary btn-lg" disabled>Press me</button>
+								<button  type="button" class="btn btn-primary ">
+									Mail
+									<span class="badge badge-dark">69</span>
+								</button>
+								<button  type="button" class="btn btn-dark btn-sm ">Press me 3</button>
+									<button  type="button" class="btn btn-danger">
+										<span class="spinner-border spinner-border-sm"></span>
+										Loading...
+									</button>
+									
+									<button class="btn btn-light"></button>
+									<button  type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" 
+									data-toggle="dropdown">
+										<span class="spinner-grow spinner-grow-sm"></span>
+
+									</button>
+								<div class="dropdown-menu">	
+								<a href="#" class="btn btn-info dropdown-item">Press me 6</a>
+								<input type="button" name="btn" class="btn btn-warning dropdown-item" value="Press me 7">
+								</div>
+							</div>
+							<p class="blockquote-footer text-center">Whats up?</p>
+						</p>
+
+					<pre class="text-white pre-scrollable">
+					Hey, this pre tag preservers all    whitespaces and line breaks
+
+					like this?
+					</pre>
+
+		<h5 class="text-right">This is level 5 heading.
+			<span class="badge badge-warning">new</span>
+		</h5>			
+		<h6 class="text-center">This is level 6 heading.
+			<span class="badge badge-info badge-pill">new</span>
+		</h6>
+
+			<div class="progress">
+				<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:69%;">69%</div>
+			</div>
+			<br>
+			<div class="progress" style="height: 20px">
+				<div class="progress-bar bg-success" style="width:33% ;height: 20px;">RAM</div>
+				<div class="progress-bar bg-danger" style="width:50% ;height: 20px;">ROM</div>
+				<div class="progress-bar bg-secondary" style="width:17% ;height: 20px;">Junk</div>
+			</div>
+<br>
+			<div class="spinner-border spinner-border-sm text-primary"></div>
+			<div class="spinner-grow spinner-grow-sm text-danger"></div>
+			<div class="spinner-border spinner-border-sm text-muted"></div>
+			<div class="spinner-grow spinner-grow-sm text-warning"></div>
+
+			<hr style="background-color: red;">
+			
+				<p class="text-dark bg-light text-sm-center text-nowrap"> Hey ! Whats up?</p>
+				<p href="#" class="font-weight-bolder text-break text-center">Click me, Please. TwT </p> 
+				<dl class="text-center">
+					<dt>Drinks</dt>
+						<dd>- Coffee</dd>
+						<dd>- Cola</dd>
+					<dt>Junk food</dt>
+						<dd>- Pizza</dd>
+						<dd>- Burger</dd>	
+				</dl>
+				<ul class="list-inline bg-secondary text-center"> 
+					<li class="list-inline-item">Nani</li>
+					<li class="list-inline-item">| Jishou</li>
+					<li class="list-inline-item">| Kasa</li>
+					<li class="list-inline-item">| Aisu</li>
+				</ul>
+				<table class="table table-hover table-dark table-striped table-responsive-lg">
+					<thead class="thead-light"><tr>
+							<th>Name</th>
+							<th>Anime</th>
+							<th>Manga</th>
+							<th>Name</th>
+							<th>Anime</th>
+							<th>Manga</th>
+							<th>Anime</th>
+							<th>Manga</th>
+							<th>Name</th>
+							<th>Anime</th>
+							<th>Manga</th>
+							<th>Manga</th>
+						</tr>
+					</thead>	
+					<tr>
+						<td>Rohit</td>
+						<td>SAO</td>
+						<td>Nisekoi</td>
+						<td>Rohit</td>
+						<td>SAO</td>
+						<td>Nisekoi</td>
+						<td>Rohit</td>
+						<td>SAO</td>
+						<td>Nisekoi</td>
+						<td>Rohit</td>
+						<td>SAO</td>
+						<td>Nisekoi</td>
+					</tr>
+					<tr>
+						<td>Bakadesu</td>
+						<td>Overlord</td>
+						<td>Munou no Nana</td>
+						<td>Rohit</td>
+						<td>SAO</td>
+						<td>Nisekoi</td>
+						<td>Rohit</td>
+						<td>SAO</td>
+						<td>Nisekoi</td>
+						<td>Rohit</td>
+						<td>SAO</td>
+						<td>Nisekoi</td>
+					</tr>
+					<tr>
+						<td>Frost</td>
+						<td>Inazuma 11</td>
+						<td>I"s</td>
+						<td>Rohit</td>
+						<td>SAO</td>
+						<td>Nisekoi</td>
+						<td>Rohit</td>
+						<td>SAO</td>
+						<td>Nisekoi</td>
+						<td>Rohit</td>
+						<td>SAO</td>
+						<td>Nisekoi</td>
+					</tr>
+				</table>
+
+				<div class="card-group">
+					<div class="card" style="width: 394px;">
+						<img src="left-image.jpg" class="card-img-top img-fluid"/>	
+						<div class="card-body text-dark">
+							<h5 class="card-title">KCC</h5>
+							<p class="card-text">This is a College Building</p>
+							<a href="#demo1" class="btn btn-primary stretched-link" data-toggle="collapse">See details</a>
+								<div id="demo1" class="collapse">This is the hidden content</div>						
+						</div>
+					</div>
+					<div class="card bg-info" style="width: 394px;">
+						<img src="left-image.jpg" class="card-img-top img-fluid"/>	
+						<div class="card-body text-dark">
+							<h5 class="card-title">KCC 2</h5>
+							<p class="card-text">This is a College Building</p>
+							<a href="#" class="btn btn-primary">See details</a>
+						</div>
+					</div>
+					<div class="card" style="width: 394px;">
+						<img src="left-image.jpg" class="card-img-top img-fluid"/>	
+						<div class="card-img-overlay text-dark">
+							<h5 class="card-title">KCC</h5>
+							<p class="card-text">This is a College Building</p>
+							<a href="#" class="btn btn-primary ">See details</a>
+						</div>
+					</div>
+				</div>
+					
+						<p class="text-right">This is a text?</p>
+			<div id="accordion">	
+				<div class="list-group">
+					<a href="#" class="list-group-item list-group-item-action disabled">Inbox</a>
+					<a href="#demo4" class="list-group-item list-group-item-action d-flex justify-content-between
+					 align-items-center" data-toggle="collapse">
+						Ads
+						<span class="badge badge-primary badge-pill">690</span>
+					</a>
+						<div id="demo4" class="collapse show" data-parent="#accordion">Hidden content. Just some random bullshit2</div>
+
+					<a href="#demo5" class="list-group-item list-group-item-action d-flex justify-content-between
+					 align-items-center" data-toggle="collapse">
+						Junk
+						<span class="badge badge-primary badge-pill">69</span>
+					</a>
+						<div id="demo5" class="collapse" data-parent="#accordion">Hidden content. Just some random bullshit3</div>
+
+					<a href="#demo3" class="list-group-item list-group-item-action
+						 list-group-item-dark" data-toggle="collapse">Spam</a>
+						 <div id="demo3" class="collapse" data-parent="#accordion">Hidden content. Just some random bullshit</div>
+				</div>			
+			</div>
+
+				<div class="card bg-light">
+					<div class="Header text-dark bg-primary">Header</div>
+						<div class="card-body text-dark">
+							<h5 class="card-title">Topic</h5>
+							<p class="card-text">Is this a good topic? It is right? Isnt it? Say that it is!</p>
+							<a href="#" class="card-link">Link1</a>
+							<a href="#" class="card-link">Link2</a>
+						</div>
+					<div class="footer bg-secondary">Footer</div>
+				</div>
+
+<hr>
+
+			<div class="btn-group-vertical">
+					<button class="btn btn-secondary" data-toggle="collapse" data-target="#demo2">
+						Press Me Please. Onegai shimasu! Please
+					</button>
+					<div id="demo2" class="collapse">Thanks for clicking me. UwU</div>
+				<button class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></button>
+					<div class="dropdown-menu bg-dark text-center">
+						<div class="dropdown-header"> head 1 </div>
+							<a href="#" class="dropdown-item text-primary">Link1</a>
+							<a href="#" class="dropdown-item text-danger">Link2</a>
+							<a href="#" class="dropdown-item-text text-light">Link3</a>
+						
+						<div class="dropdown-header"> Head 2 </div>
+							<a href="#" class="dropdown-divider  text-light">Another Link</a>
+							
+					</div>
+			</div>
+
+<br>
+
+
+				<ul class="pagination justify-content-center" style="margin:20px 0;">
+					<li class="page-item disabled"><a href="#" class="page-link">Previous</a></li>
+					<li class="page-item"><a href="#" class="page-link">1</a></li>
+					<li class="page-item active"><a href="#" class="page-link">2</a></li>				
+					<li class="page-item"><a href="#" class="page-link">3</a></li>
+					<li class="page-item"><a href="#" class="page-link">...</a></li>
+					<li class="page-item"><a href="#" class="page-link">Next</a></li>
+				</ul>		
+
+			</div>
+		</body>
+</html>
