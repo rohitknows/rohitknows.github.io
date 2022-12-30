@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, intial-scale=1">
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+			<!-- jQuery library -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+			<!-- Popper JS -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+			<!-- Latest compiled JavaScript -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</head>
+		<body class="bg-dark">
+			<div class="container-fluid pt-3 pb-1 my-3 bg-dark text-white">
+					
+
+						<h2 class="text-center pt-4">
+						 Welcome	
+ 						</h2>
+			<br>
+ 					<ul class="nav nav-tabs font-weight-normal ">
+ 						<li class="nav-item">
+ 							<a href="#home" class="nav-link" data-toggle="tab">Home</a>
+ 						</li>
+ 						<li class="nav-item">
+ 							<a href="#albums" class="nav-link" data-toggle="tab">Albums</a>
+ 						</li>
+ 						<li class="nav-item">
+ 							<a href="#portfolio" class="nav-link" data-toggle="tab">Portfolio</a>
+ 						</li>
+ 						<li class="nav-item">
+ 							<a href="#NoWhere" class="nav-link active disabled" data-toggle="tab">NoWhere</a>
+ 						</li>
+ 					</ul>
+ 					
+ 							<div class="tab-content font-weight-bolder jumbotron jumbotron-fluid text-dark">
+ 								<div class="tab-pane container fade" id="home">Welcome to the home tab, how do you like this
+ 								 Click on any other tab to see the content here change.
+ 								</div>
+ 								<div class="tab-pane container fade" id="albums">Welcome to the Albums tab, No albums, here yet.
+ 								 Click on any other tab to see the content here change.</div>
+ 								<div class="tab-pane container fade" id="portfolio">
+ 									The portfolio is located at <mark>https://www.rohitknows.github.io</mark></div>
+ 								<div class="tab-pane container active" id="NoWhere">Text</div>
+ 							</div>
+
+
+ 			<div class="navbar navbar-expand-xl bg-primary pt-1 pb-1 navbar-light fixed-top">
+ 				<!--- navbar-brand --->
+ 				<a href="#" class="navbar-brand font-weight-bolder text-monospace text-dark" >
+ 								rohitknows.github.io<!--<img src="mylogowhitesmall.png" style="width: 60px;">-->
+       			</a>
+
+ 							<!---Burger icon as toggler for nav-items -->
+ 					<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navtarget">
+ 							<span class="navbar-toggler-icon"></span>
+ 					</button>
+
+ 							<!--Collapsed navbar data-->
+ 					<div class="collapse navbar-collapse" id="navtarget">
+ 						<ul class="navbar-nav font-weight-bold">
+ 							<li class="nav-item">
+								<a href="#alertone" class="nav-link" data-toggle="collapse">Link</a> 							
+ 							</li>
+		 					<li class="nav-item">
+		 						<a href="#" class="nav-link">Link 1</a>
+		 					</li>
+		 					<li class="nav-item">
+		 						<a href="#" class="nav-link ">Link 2</a>
+		 					</li>
+		 					<li class="nav-item">
+		 						<a href="#" class="nav-link">Link 3</a>
+		 					</li>
+ 					</div>
+ 				</ul>
+ 			</div>
+<br>
+ 					<ul class="breadcrumb">
+ 						<li class="breadcrumb-item"><a href="#">Home</a></li>
+ 						<li class="breadcrumb-item"><a href="#">Albums</a></li>
+ 						<li class="breadcrumb-item"><a href="#">Portfolio</a></li>
+ 						<li class="breadcrumb-item active">Nowhere</li>
+ 					</ul>	
+
+ 					<div class="alert alert-warning alert-dismissible fade collapse" id="alertone">
+ 						<a href="" class="close" data-dismiss="alert">&times;</a>
+ 						<strong>Warning! </strong>This is a warning msg. Get on your knees! Hands behind your head!
+ 					</div>
+ 					<div class="alert alert-info alert-dismissible">
+ 						<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+ 						<strong>Info! </strong>This is a info msg! <a href="#" class="alert-link">Read this carefully.</a> 
+ 						Click the &times; button on right to close this.
+
+ 					</div>
+
+				<p class="display-4 bg-dark text-center">Stop it!</p>
+					<h5 class="text-center">Do you know<mark>nani tf is</mark> <abbr title="Uttar Pradesh">UP?</abbr> 
+					<code>I dont know.</code>
+					</h5>
+
+						<p class="text-dark bg-primary blockquote text-center"> Hey ! Use <kbd> Ctrl + P </kbd> 
+							<div class="btn-group btn-group-sm">
+								<button  type="button" class="btn btn-secondary btn-lg" disabled>Press me</button>
+								<button  type="button" class="btn btn-primary ">
+									Mail
+									<span class="badge badge-dark">69</span>
+								</button>
+								<button  type="button" class="btn btn-dark btn-sm ">Press me 3</button>
+									<button  type="button" class="btn btn-danger">
+										<span class="spinner-border spinner-border-sm"></span>
+										Loading...
+									</button>
+									
+									<button class="btn btn-light"></button>
+									<button  type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" 
+									data-toggle="dropdown">
+										<span class="spinner-grow spinner-grow-sm"></span>
+
+									</button>
+								<div class="dropdown-menu">	
+								<a href="#" class="btn btn-info dropdown-item">Press me 6</a>
+								<input type="button" name="btn" class="btn btn-warning dropdown-item" value="Press me 7">
+								</div>
+							</div>
+							<p class="blockquote-footer text-center">Whats up?</p>
+						</p>
+
+					<pre class="text-white pre-scrollable">
+					Hey, this pre tag preservers all    whitespaces and line breaks
+
+					like this?
+					</pre>
+
+		<h5 class="text-right">This is level 5 heading.
+			<span class="badge badge-warning">new</span>
+		</h5>			
+		<h6 class="text-center">This is level 6 heading.
+			<span class="badge badge-info badge-pill">new</span>
+		</h6>
+
+
+			<hr style="background-color: red;">
+			
+
+
+<br>
+
+
+			</div>
+		</body>
+</html>
